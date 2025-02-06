@@ -43,6 +43,8 @@ The simulation follows these **key steps**:
          ▼
 [ Circuit Optimization & Ground State Energy (Qiskit) ]
 
+---
+
 ## 📜 References
 
 1. **Qiskit Documentation** - [https://qiskit.org/documentation/](https://qiskit.org/documentation/)
@@ -58,3 +60,5 @@ The simulation follows these **key steps**:
 11. **Unitary Coupled Cluster (UCC) Ansatz for Quantum Chemistry - Romero et al., 2018** - [arXiv:1701.02691](https://arxiv.org/abs/1701.02691)
 12. **Quantum Computational Chemistry - McArdle et al., 2020** - [DOI: 10.1103/RevModPhys.92.015003](https://doi.org/10.1103/RevModPhys.92.015003)
 13. **Classical Electronic Structure Methods (Hartree-Fock, DFT, CASSCF, MP2)** - Szabo & Ostlund, *Modern Quantum Chemistry*, 1989.
+
+---
