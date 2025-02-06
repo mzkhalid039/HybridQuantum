@@ -25,8 +25,8 @@ The simulation follows these **key steps**:
 ---
 
 ## **Workflow Flowchart**
-```plaintext
----![Workflow](https://github.com/user-attachments/assets/26c98e58-2de6-4d66-80cc-776c900d9dda)
+![Workflow](https://github.com/user-attachments/assets/7b142974-1c2b-4fa3-ba0f-8a1402dd2818)
+
 
 
 ## 📜 References
