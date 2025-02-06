@@ -2,7 +2,7 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 This repository provides a **Hybrid Classical-Quantum Workflow** for **molecular simulations**, leveraging both **classical and quantum computing tools**.
 
 ### 🔹 **Key Topics**
@@ -12,7 +12,7 @@ This repository provides a **Hybrid Classical-Quantum Workflow** for **molecular
 
 ---
 
-## 🚀 **Simulation Workflow**
+##  **Simulation Workflow**
 The simulation follows these **key steps**:
 
 1️⃣ **Build molecular geometry** (PySCF, ASE)  
@@ -29,7 +29,7 @@ The simulation follows these **key steps**:
 
 
 
-## 📜 References
+## References
 
 1. **Qiskit Documentation** - [https://qiskit.org/documentation/](https://qiskit.org/documentation/)
 2. **PySCF Documentation** - [https://pyscf.org/](https://pyscf.org/)
