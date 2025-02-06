@@ -1,0 +1,2 @@
+Bond Distance (Å)    VQE Energy (Hartree)    HF Energy (Hartree)
+0.30                 -5.87660292             -5.84243683
