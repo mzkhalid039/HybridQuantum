@@ -26,24 +26,8 @@ The simulation follows these **key steps**:
 
 ## **Workflow Flowchart**
 ```plaintext
-[ Classical Simulations (PySCF) ]
-         │
-         ▼
-[ HF, Basis Function & Active Space ]
-         │
-         ▼
-[ Generate Integrals & Hamiltonian (OpenFermion) ]
-         │
-         ▼
-[ Transformation: Jordan-Wigner, Bravyi-Kitaev ]
-         │
-         ▼
-[ Quantum Circuit (VQE, Ansatz) (Qiskit) ]
-         │
-         ▼
-[ Circuit Optimization & Ground State Energy (Qiskit) ]
-```
----
+---![Workflow](https://github.com/user-attachments/assets/26c98e58-2de6-4d66-80cc-776c900d9dda)
+
 
 ## 📜 References
 
