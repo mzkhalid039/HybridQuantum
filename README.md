@@ -24,7 +24,7 @@ The simulation follows these **key steps**:
 
 ---
 
-## 📊 **Workflow Flowchart**
+## **Workflow Flowchart**
 ```plaintext
 [ Classical Simulations (PySCF) ]
          │
