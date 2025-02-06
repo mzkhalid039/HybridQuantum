@@ -42,7 +42,7 @@ The simulation follows these **key steps**:
          │
          ▼
 [ Circuit Optimization & Ground State Energy (Qiskit) ]
-
+```
 ---
 
 ## 📜 References
