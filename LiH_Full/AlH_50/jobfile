@@ -1,0 +1,37 @@
+#!/bin/bash
+#SBATCH --job-name=AlH_50
+#SBATCH --account=project_2002278  # insert here the project to be billed 
+#SBATCH --partition=gpu
+#SBATCH --time=72:00:00
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem-per-cpu=8000
+#SBATCH --gres=gpu:v100:1
+
+module load qiskit/1.0.2
+
+# Define a temporary directory on scratch and the submit directory
+SCRATCH_DIR="/scratch/project_2002278/$SLURM_JOB_ID"
+SUBMITDIR="$SLURM_SUBMIT_DIR"
+
+# Set up the scratch directory
+mkdir -p "$SCRATCH_DIR"
+chgrp --reference="$SUBMITDIR" "$SCRATCH_DIR"
+chmod +s "$SCRATCH_DIR"
+
+# Copy input files from the submit directory to the scratch directory
+cp -p "$SUBMITDIR"/* "$SCRATCH_DIR"
+
+# Navigate to scratch directory for execution
+cd "$SCRATCH_DIR"
+
+# Run the Python script
+srun python puhti.py
+
+# Copy all output files from the scratch directory back to the submit directory
+cp -upr "$SCRATCH_DIR"/* "$SUBMITDIR"
+
+# Final cleanup
+cd "$SUBMITDIR"
+rm -rf "$SCRATCH_DIR"
+
