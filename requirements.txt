@@ -1,0 +1,9 @@
+qiskit
+qiskit-ibm-runtime
+openfermion
+openfermionpyscf
+py3Dmol
+numpy
+scipy
+matplotlib
+ase
