@@ -31,7 +31,7 @@ The following Python libraries are required:
 
 To set up your environment, install the required dependencies using ```bash```:
 
-```pip install qiskit qiskit-ibm-runtime openfermion openfermionpyscf py3Dmol numpy scipy matplotlib```
+pip install qiskit qiskit-ibm-runtime openfermion openfermionpyscf py3Dmol numpy scipy matplotlib
 
 ##  **Simulation Workflow**
 The simulation follows these **key steps**:
