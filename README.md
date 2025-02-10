@@ -12,6 +12,28 @@ This repository provides a **Hybrid Classical-Quantum Workflow** for **molecular
 
 ---
 
+## 📦 Dependencies
+
+The following Python libraries are required:
+
+- [Qiskit](https://qiskit.org/)
+- [Qiskit IBM Runtime](https://qiskit.org/documentation/partners/qiskit_ibm_runtime/)
+- [OpenFermion](https://github.com/quantumlib/OpenFermion)
+- [OpenFermion-PySCF](https://github.com/quantumlib/OpenFermion-PySCF)
+- [Py3Dmol](https://github.com/3dmol/3Dmol.js)
+- [SciPy](https://scipy.org/)
+- [Matplotlib](https://matplotlib.org/)
+- [NumPy](https://numpy.org/)
+
+---
+
+## 🔧 Installation
+
+To set up your environment, install the required dependencies using:
+
+```bash
+pip install qiskit qiskit-ibm-runtime openfermion openfermionpyscf py3Dmol numpy scipy matplotlib
+
 ##  **Simulation Workflow**
 The simulation follows these **key steps**:
 
